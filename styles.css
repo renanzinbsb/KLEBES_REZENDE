@@ -466,7 +466,7 @@ footer {
 
 .formulario{
   min-height: 100vh;
-  background-image: url(img/IMG_FUNDO.svg);
+  background-image: url(./IMG_FUNDO.svg);
   background-color:#060e16;
   background-size: cover;
   display: grid;
