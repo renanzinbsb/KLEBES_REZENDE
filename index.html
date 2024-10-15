@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>KLEBES_REZENDE</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo"><img src="img/logo.svg" alt="card image"></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#Formulário">Inicio</a></li>
+        <li><a href="#atua">Atuações</a></li>
+        <li><a href="#Fundador">Fundador</a></li>
+        <li><a href="#escritório">Escritorio</a></li>
+        <li><a href="#Formulário">Formulario</a></li>
+
+      </ul>
+    </nav>
+
+<!-- inicio leads -->
+<section class="formulario" id="Formulário">
+  <section class="intro" id="lead">
+    <h1>Prontos para resolver o seu</h1>
+    <p>Problema</p>
+  </section>
+  <main class="signup">
+    <p class="name_lead">Compromisso, Respeito e Responsabilidade</p>
+    <style>
+      .name_lead{
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;font-weight: 600;
+        padding-bottom: 10%;
+      }
+    </style>
+    <form action="enviar-email.php" method="POST" class="card">
+      <div class="form-control">
+          <label for="inputNome">Primeiro Nome:</label>
+          <input type="text" id="inputNome" name="nome" required maxlength="25" minlength="2">
+          <span></span>
+      </div>
+
+      <div class="form-control">
+          <label for="inputEmail">Endereço de Email:</label>
+          <input type="email" id="inputEmail" name="email" required maxlength="50">
+          <span></span>
+      </div>
+
+      <div class="form-control">
+        <label for="telefone">Seu telefone:</label>
+        <input class="input" type="text" id="inputTelefone" name="telefone" required autocomplete="off" maxlength="14" > 
+        <span></span>
+    </div>
+
+    <div class="form-control">
+          <label for="textAreaMensagem">Relate seu problema:</label>
+          <textarea name="mensagem" id="textAreaMensagem" placeholder="Preciso de ajuda em..."  required maxlength="100"></textarea>
+          <span></span>
+      </div>
+
+      <button class="claim"><p>Solicitar atendimento</p></button>
+  </form>
+
+    <div class="message hidden">
+      <p class="submitted animated-content">Submitted! 🎉</p>
+    </div>
+  </main>
+</section>
+ <!-- Fim leads -->
+
+
+  <!-- inicio atuações 
+ <section class="section__container discover__container">
+  <h2 class="section__header">ATUAÇÔES</h2>
+  <div class="discover__grid">
+    <div class="discover__card">
+     <img src="img/Direito Civil.png" class="dish-image" alt="">
+      <h4>Direito Civil</h4>
+      <p>
+        Sua vida e seus relacionamentos são importantes. Defendemos seus direitos em disputas contratuais, indenizações, e situações que envolvem questões do dia a dia.
+               Seja para prevenir ou solucionar conflitos, estamos prontos para ajudar você a seguir em frente.
+      </p>
+    </div>
+    <div class="discover__card">
+      <img src="img/Direito Criminal.png" class="dish-image" alt="">
+      <h4>Direito Criminal</h4>
+      <p>
+        Com expertise em defesa penal, lutamos incansavelmente pela sua liberdade e dignidade. Seja você réu ou vítima, nossos profissionais 
+                        trabalham com agilidade e precisão para garantir justiça em todos os estágios do processo criminal.
+      </p>
+    </div>
+    <div class="discover__card">
+      <img src="img/Direito Empresarial.png" class="dish-image" alt="">
+      <h4>Direito Empresarial</h4>
+      <p>
+        Seu negócio é sua paixão, e o nosso compromisso é garantir que ele prospere. Oferecemos suporte jurídico
+                         especializado para empresas, cuidando de contratos, parcerias e litígios com segurança e visão estratégica.
+      </p>
+    </div>
+    <div class="discover__card">
+      <img src="img/Direito Familiar.png" class="dish-image" alt="">
+      <h4>Direito Familiar</h4>
+      <p>
+        Cuidamos do que é mais precioso para você – sua família. Nos momentos difíceis de divórcio, guarda de filhos ou partilha de bens,
+        trabalhamos com sensibilidade e firmeza para alcançar soluções equilibradas e que respeitem seus direitos.
+      </p>
+    </div>
+    <div class="discover__card">
+      <img src="img/Direito Eleitoral.png" class="dish-image" alt="">
+      <h4>Direito Eleitoral</h4>
+      <p>
+        Na arena política, o sucesso depende de uma assessoria jurídica sólida. Nosso escritório garante que candidatos e partidos estejam em conformidade
+        com a legislação eleitoral, protegendo suas campanhas e garantindo uma atuação ética e segura.
+      </p>
+    </div>
+    <div class="discover__card">
+      <img src="img/Direito Previdenciário.png" class="dish-image" alt="">
+      <h4> Direito Previdenciário</h4>
+      <p>
+        Seus direitos previdenciários são resultado de uma vida de trabalho, e nós lutamos para que eles sejam respeitados. 
+        Desde aposentadorias até benefícios negados, estamos aqui para assegurar que você receba o que merece.
+      </p>
+    </div>
+    <div class="discover__card">
+      <img src="img/Direito Tributário.png" class="dish-image" alt="">
+      <h4>Direito Tributario</h4>
+      <p>
+        Quer evitar problemas com o Fisco? Nossa equipe está pronta para garantir que suas obrigações fiscais sejam cumpridas
+        de maneira eficiente, evitando surpresas e disputas que possam prejudicar suas finanças.
+      </p>
+    </div>
+    <div class="discover__card">
+      <img src="img/Internacional.png" class="dish-image" alt="">
+      <h4>Direito Internacional</h4>
+      <p>
+        Vivemos em um mundo globalizado, e questões internacionais podem ser complexas. Se você tem negócios ou disputas envolvendo diferentes países, 
+        estamos preparados para fornecer soluções jurídicas que respeitem as legislações internacionais e protejam seus interesses.
+      </p>
+    </div>
+    </div>
+  </div>
+</section>
+fim atuações -->
+
+<!-- fi teste atuações -->
+ <section class="atuacoes" id="atua">
+<section class="section__container swiper mySwiper">
+  <h2 class="titu_atua">Áreas de atuação</h2>
+  <div class="swiper-wrapper">
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Direito Civil.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Civil</span>
+        <p class="card__text">Sua vida e seus relacionamentos são importantes. Defendemos seus direitos em disputas contratuais, indenizações, e situações que envolvem questões do dia a dia.
+          Seja para prevenir ou solucionar conflitos, estamos prontos para ajudar você a seguir em frente.</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Direito Criminal.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Criminal</span>
+        <p class="card__text"> Com expertise em defesa penal, lutamos incansavelmente pela sua liberdade e dignidade. Seja você réu ou vítima, nossos profissionais 
+          trabalham com agilidade e precisão para garantir justiça em todos os estágios do processo criminal..</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Direito Empresarial.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Empresarial</span>
+        <p class="card__text"> Seu negócio é sua paixão, e o nosso compromisso é garantir que ele prospere. Oferecemos suporte jurídico
+          especializado para empresas, cuidando de contratos, parcerias e litígios com segurança e visão estratégica.</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Direito Familiar.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Familiar</span>
+        <p class="card__text">Cuidamos do que é mais precioso para você – sua família. Nos momentos difíceis de divórcio, guarda de filhos ou partilha de bens,
+          trabalhamos com sensibilidade e firmeza para alcançar soluções equilibradas e que respeitem seus direitos.</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Direito Eleitoral.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Eleitoral</span>
+        <p class="card__text">        Na arena política, o sucesso depende de uma assessoria jurídica sólida. Nosso escritório garante que candidatos e partidos estejam em conformidade
+          com a legislação eleitoral, protegendo suas campanhas e garantindo uma atuação ética e segura.</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Direito Previdenciário.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Previdenciário</span>
+        <p class="card__text">        Seus direitos previdenciários são resultado de uma vida de trabalho, e nós lutamos para que eles sejam respeitados. 
+          Desde aposentadorias até benefícios negados, estamos aqui para assegurar que você receba o que merece.</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Direito Tributário.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Tributario</span>
+        <p class="card__text">Quer evitar problemas com o Fisco? Nossa equipe está pronta para garantir que suas obrigações fiscais sejam cumpridas
+          de maneira eficiente, evitando surpresas e disputas que possam prejudicar suas finanças.</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+    <div class="cardy swiper-slide">
+      <div class="card__image">
+        <img src="img/Internacional.png" alt="card image">
+      </div>
+      <div class="card__content">
+        <span class="card__title">Direito Internacional</span>
+        <p class="card__text"> Vivemos em um mundo globalizado, e questões internacionais podem ser complexas. Se você tem negócios ou disputas envolvendo diferentes países, 
+          estamos preparados para fornecer soluções jurídicas que respeitem as legislações internacionais e protejam seus interesses.</p>
+        <h1 class="inform">Passe para o lado</h1>
+      </div>
+    </div>
+
+  </div>
+</section>
+</section>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 300,
+      modifier: 1,
+      slideShadows: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+<!-- f teste atuações -->
+
+<section class="mentor" id="Fundador">
+  <h2 class="cabe_fund">Fundador</h2>
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="img/1-Correção de Cor.png" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>Klebes Rezende </h4>
+        <h2 class="sub_TI">Advogado Criminalista</h2>
+        <p>
+          Advogado pós graduado em Direito Penal e Processo Penal com mais de 10 anos de experiência.
+                    Teve sua carreira iniciada no Tribunal do Júri com atuação nos diversos plenários do TJDFT.
+                    A sua trajetória profissional proporcionou uma compreensão única das necessidades e direitos das partes. Por isso, é capaz de oferecer suporte humano e legal, lutando pelos direitos violados e pela justiça.
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <section class="destination" id="escritório">
+    <div class="section__container destination__container">
+      <h2 class="section__header">Escritorio</h2>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="img/scr.jpeg" alt="destination" />
+          <div class="destination__content">Fachada</div>
+        </div>
+        <div class="destination__card">
+          <img src="img/scr2.jpeg" alt="destination" />
+          <div class="destination__content">Fachada</div>
+        </div>
+        <div class="destination__card">
+          <img src="img/scr3.jpeg" alt="destination" />
+          <div class="destination__content">Fachada</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo"><img src="img/logo.svg" alt="card image"></a>
+          </div>
+          <p>
+            mais de 10 anos de experiencia...
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Informações</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> agenciaimpulse@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> brasilia - DF
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Localização</h4>
+          <div class="map">
+            <iframe src="https://www.google.com.br/maps/place/Lavanderia+-+Lav%C3%B4+Sobradinho/@-15.6515731,-47.7989924,15z/data=!4m6!3m5!1s0x935a3fcd0aa9ca89:0x3d1c16daaed00c60!8m2!3d-15.6515723!4d-47.7886896!16s%2Fg%2F11s5y_zv2b?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Feito c
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
